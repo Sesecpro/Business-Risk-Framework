@@ -1,31 +1,63 @@
-# Framework de Resiliencia: El Ciclo Sesecpro
+# 🔄 Framework de Resiliencia: El Ciclo Sesecpro (IPDR)
 
-La resiliencia no es un estado, es un proceso continuo. El Ciclo Sesecpro alinea los objetivos estratégicos con la capacidad operativa de la organización.
+**Versión:** 2.0
+**Alineación:** NIST Cybersecurity Framework 2.0 (GOV, ID, PR, DE, RS, RC)
+**Filosofía:** "Operational Resilience" over "Perimeter Security"
 
-## Las 4 Etapas de la Resiliencia Corporativa
-
-### 1. Identificación: Auditoría de Superficie de Negocio
-Más allá de un escaneo técnico, se trata de entender el mapa de riesgos.
-*   **Objetivo**: Saber qué tenemos, dónde está y quién es el responsable de negocio del activo.
-*   **Foco Estratégico**: Identificar Shadow IT y activos huérfanos que puedan comprometer el cumplimiento de NIS2/DORA.
-
-### 2. Protección: Hardening y Gobernanza
-Establecimiento de las murallas proactivas basadas en procesos y personas.
-*   **Objetivo**: Minimizar el radio de impacto de cualquier incidente.
-*   **Foco Estratégico**: Implementar políticas de "Mínimo Privilegio", concienciación de la directiva y blindaje de procesos críticos.
-
-### 3. Detección: Monitorización Proactiva (Estrategia TrustLink)
-Capacidad de ver lo que otros ignoran antes de que se convierta en crisis.
-*   **Objetivo**: Reducir el MTTP (Mean Time to Perceive).
-*   **Foco Estratégico**: Visibilidad total de la identidad legal de la empresa en internet y detección de anomalías en activos críticos.
-
-### 4. Respuesta: Gestión de Crisis y Comunicación Institucional
-La medida real de la resiliencia es cómo reacciona la organización bajo presión.
-*   **Objetivo**: Recuperar la normalidad operativa y proteger el valor de la marca.
-*   **Foco Estratégico**: Planes de comunicación para inversores, clientes y reguladores. Simulacros de mesa (Tabletop Exercises) para el Comité de Dirección.
-
-## El Modelo de Mejora Continua
-Cada etapa genera "lecciones aprendidas" que alimentan la fase de Identificación, creando un ecosistema de seguridad que evoluciona con las amenazas.
+La seguridad 100% es una utopía técnica. La **Resiliencia** es un objetivo de negocio alcanzable. El Ciclo Sesecpro alinea la capacidad tecnológica con la estrategia corporativa para garantizar la supervivencia ante la inevitabilidad del incidente.
 
 ---
-*Este documento es parte del Sesecpro Business Risk Framework.*
+
+## 🏗️ La Gobernanza como Cimiento
+Antes de aplicar tecnología, el Consejo de Administración debe establecer el "Tono desde la Cima" (Tone at the Top).
+* **Definición de Roles:** ¿Quién tiene la autoridad para desconectar la planta de producción ante un ataque?
+* **Apetito de Riesgo:** ¿Cuánto downtime podemos tolerar antes de pagar un rescate (o decidir no hacerlo)?
+
+---
+
+## ♻️ Las 4 Etapas del Ciclo Operativo
+
+### 1. 🔍 Identificación (Discovery & Valuation)
+*Conocer el terreno para defenderlo.*
+
+No se trata solo de escanear IPs, sino de mapear procesos de negocio.
+* **El Desafío:** El 30-50% de los activos de una empresa moderna son **Shadow IT** (SaaS no autorizados, Nube dispersa).
+* **Acción Estratégica:** Auditoría de "Superficie de Negocio". Identificar activos huérfanos que comprometen el cumplimiento de **NIS2** y **DORA**.
+* **Entregable:** Inventario de Activos Críticos y Mapa de Flujo de Datos (Data Flow).
+
+### 2. 🛡️ Protección (Zero Trust Architecture)
+*Minimizar la superficie de impacto.*
+
+Si el atacante entra, no debe poder moverse. Pasamos del modelo "Castillo y Foso" a la "Desconfianza Perpetua".
+* **El Desafío:** El error humano es la causa del 80% de las brechas.
+* **Acción Estratégica:**
+    * **Identidad:** Implementación de MFA resistente a phishing y Privilegio Mínimo.
+    * **Inmutabilidad:** Backups blindados contra ransomware (WORM).
+* **Entregable:** Arquitectura de Defensa en Profundidad implementada.
+
+### 3. 👁️ Detección (Proactive Monitoring)
+*Ver lo invisible antes de que sea catastrófico.*
+
+Reducir el **MTTD (Mean Time To Detect)**. La media global es de 200 días; el objetivo Sesecpro es < 24 horas.
+* **Estrategia TrustLink™:** Monitorización proactiva de la identidad legal y digital de la empresa en la "Clear" y "Dark Web".
+* **Enfoque:** Asumir que ya estamos comprometidos ("Assume Breach") y buscar anomalías de comportamiento (User Behavior Analytics).
+* **Entregable:** Alertas de Alta Fidelidad (eliminación de falsos positivos).
+
+### 4. 🚨 Respuesta y Recuperación (Crisis Management)
+*La prueba de fuego de la organización.*
+
+La resiliencia se mide por la velocidad de retorno a la normalidad operativa (**MTTR**).
+* **El Desafío:** El pánico directivo durante un incidente paraliza la toma de decisiones.
+* **Acción Estratégica:**
+    * **Playbooks de Negocio:** Guiones pre-aprobados para Legal, PR y Operaciones, no solo para IT.
+    * **Comunicación Institucional:** Gestión de la narrativa ante reguladores, clientes y prensa para proteger la reputación.
+* **Entregable:** Simulacros de Mesa (Tabletop Exercises) anuales con el Comité de Dirección.
+
+---
+
+## 🔄 El Modelo de Mejora Continua
+Este ciclo no es lineal, es iterativo. Cada incidente (real o simulado) genera "Lecciones Aprendidas" que redefinen la fase de **Identificación**, cerrando el círculo y elevando la madurez de seguridad de la organización.
+
+> *"La tecnología detiene ataques. La estrategia salva negocios."*
+
+*© 2026 Sesecpro Strategic Resilience.*
